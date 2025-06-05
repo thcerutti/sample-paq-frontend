@@ -23,3 +23,7 @@ Esses são os conhecimentos que você vai usar para desenvolver o seu projeto do
 Clone o repositório, leia os exemplos e experimente modificar o código. Não tenha medo de errar, é assim que se aprende! Qualquer dúvida, pergunte para os colegas ou para os mentores.
 
 Divirta-se programando! 😄
+
+## Página no GitHub Pages
+
+Você pode acessar a página do projeto no GitHub Pages [aqui](https://thcerutti.github.io/sample-paq-frontend/).
