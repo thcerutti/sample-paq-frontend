@@ -1,0 +1,40 @@
+:root {
+  --fundo: #d3d3d3;
+  --primaria: #4CAF50;
+}
+
+h1 {
+  color: var(--titulo);
+  font-size: 24px;
+}
+
+body {
+  background-color: var(--fundo);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--primaria);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
