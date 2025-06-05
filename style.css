@@ -1,6 +1,13 @@
+/* Aqui estamos criando variáveis CSS!
+  Elas funcionam como "apelidos" para cores e outros valores,
+  facilitando mudar tudo de uma vez só.
+  Assim, seu código fica mais organizado e divertido de mexer! */
 :root {
   --fundo: #d3d3d3;
   --primaria: #4CAF50;
+  --item-lista: #f0f0f0;
+  --borda-item: #cccccc;
+  --texto-botao: #ffffff;
 }
 
 h1 {
@@ -18,20 +25,19 @@ body {
 ul {
   list-style-type: none;
   padding: 0;
-
 }
 
 li {
   margin: 10px 0;
   padding: 10px;
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
+  background-color: var(--item-lista);
+  border: 1px solid var(--borda-item);
   border-radius: 5px;
 }
 
 button {
   background-color: var(--primaria);
-  color: white;
+  color: var(--texto-botao);
   padding: 10px 20px;
   border: none;
   border-radius: 5px;

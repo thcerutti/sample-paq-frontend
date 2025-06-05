@@ -1,7 +1,13 @@
 <html>
   <head>
     <title>Exemplo de aplicativo web</title>
-    <link rel="stylesheet" href="style.css">
+    <!--
+      Colocamos o link para o CSS dentro do <head> para garantir que os estilos sejam carregados antes da página
+      aparecer para o usuário. Assim, tudo já aparece bonitinho desde o começo! Se colocássemos em outro lugar,
+      a página poderia aparecer "desarrumada" por alguns instantes.
+      É como vestir a roupa antes de sair de casa: melhor já sair estiloso, né?
+    -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Exemplo de requisição web</h1>
@@ -9,6 +15,11 @@
     <button onclick="buscarEspecies('resultado')">
       Buscar espécies em extinção da API
     </button>
+    <!--
+      Colocamos o script logo antes do fechamento do <body> para garantir que todo o conteúdo da página
+      (como textos e imagens) já foi carregado antes do JavaScript começar a rodar. Assim, evitamos erros e deixamos
+      a página mais rápida e tranquila para o usuário!
+    -->
     <script src="index.js"></script>
   </body>
 </html>
